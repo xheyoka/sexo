@@ -1,0 +1,474 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: relative; 
+    width: 24px;
+    height: 20px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: white;
+    opacity: 0.9 !important;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #9575DE;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: none;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #37323f;
+    padding: 0; 
+    font-size: 1.15em;
+  } 
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color:  white;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+  }
+
+@media screen and (max-width: 1360px) {
+
+    /* home */
+    .homeImage {
+        height: 20rem;
+        width: 27rem;
+    }
+
+    .homeImageBorder {
+        height: 20rem;
+        width: 27rem;
+    }
+
+    .homeContainerText .homeHelloText{
+        font-size: 6rem;
+    }
+
+    .homeContainerText .homeNameText{
+        font-size: 1.2rem;
+    }
+
+    .homeContainerText .homeRoleText{
+        font-size: 2.2rem;
+    }
+
+    .socialsContainer {
+        margin-left: 0.5rem;
+    }
+
+    /* about me */
+    .aboutMeImage{
+        height: 17rem;
+        width: 24rem;
+    }
+
+    .aboutMeContainerText{
+        margin-top: 0rem;
+    }
+
+    .aboutMeTitleText{
+        font-size: 3rem;
+    }
+
+    /* services */
+
+    .servicesTitle{
+        font-size: 3rem;
+    }
+
+    .socialMediaImage{
+        height: 17rem;
+        width: 24rem; 
+    }
+    
+    .socialMediaContainer{
+        padding-right: 5rem;
+    }
+
+    .admImage{
+        height: 17rem;
+        width: 24rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    /* navbar */
+    .navbar{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    /* home */
+    .homeSection{
+        padding-left: 80px;
+        padding-right: 80px;
+     }
+
+     /* about me */
+     .aboutMeSection{
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .aboutMeContainerText{
+        margin-top: 0rem;
+    }
+
+
+    .aboutMeContainerText{
+        margin-top: -2rem;
+    }
+    /* experience */
+
+    .experienceSection{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+
+    /* services */
+
+    .socialsContainer {
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1150px){
+    /* home */
+    
+    /* about me */
+    .aboutMeSection{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    /* experience */
+
+    .experienceSection{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .experienceImage{
+        height: 18rem;
+        width: 25rem;
+    }
+
+    .experienceContainerText {
+        margin-left: 6rem;
+    }
+
+    .experienceTitleText{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .buttonContainer {
+        align-items: start;
+        margin-top: -1rem;
+        flex-direction: column;
+    }
+    
+    /* services */
+
+}
+
+@media screen and (max-width: 960px){
+    .homeSection{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4rem;
+        height: 90dvh;
+    }
+
+    .homeContainerText{
+        text-align: center;
+        flex: 0;
+    }
+
+    .buttonContainer {
+        align-items: center;
+    }
+
+    .homeImage{
+        display: none;
+        height: 17rem;
+        width: 24rem;
+        left: -19px;
+    }
+
+    .homeImageBorder{
+        display: none;
+        height: 17rem;
+        width: 24rem;
+    }
+
+    /* about me */
+
+
+    .AboutMeContainer {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMeContainerText{
+        margin-left: 0px;
+    }
+
+    .aboutMeImageContainerMobile {
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .aboutMeImageContainer {
+        display: none;
+     
+    }
+
+    .aboutMeImageMobile{
+        margin-right: 35px;
+    }
+
+    /* services */
+
+    .servicesSection{
+        text-align: center;
+    }
+
+   .responsiveSocialMediaImage{
+        display: block;
+   }
+
+   .normalSocialMediaImage{
+    display: none;
+   }
+
+   .socialMediaContainer{
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 0px;
+   }
+
+
+   .socialMediaImage{
+        left: 0px;
+   }
+
+    .admSkillsSection{
+        margin-top: 4rem;
+    }
+
+    .admSkillsContainerText {
+        margin-left: 0px;
+        gap: 2rem
+    }
+    
+    .admSkillsContainerText div{
+        margin: 0px;
+       
+    }
+
+    .admSkillsContainerText ul{
+        display: flex;
+        text-align: start;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .admSkillsImageContainer{
+        display: none;
+    }
+
+    .admSkillsImageContainerMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    .admSkillsMobileImage{
+        margin-right: 1rem;
+    }
+
+    /* experience */
+    .experienceContainerText {
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .experienceSection span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .normalExperienceImageContainer{
+        display: none;
+    }
+
+    .mobileExperienceImageContainer{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .navbar {
+        justify-content: space-between;
+    }
+    .navItems, .languageDropdown {
+        display: none;
+    }
+
+    .navMobileButton {
+        display: block;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 545px){
+    .admSkillsContainerText ul{
+        align-items: start;
+    }
+
+    .navbar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .homeSection{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .experienceSection{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .aboutMeSection{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .aboutMeImage{
+        margin-right: 0px;
+        height: 13rem;
+        width: 20rem;
+    }
+
+    .aboutMeImageBorder{
+        height: 13rem;
+        width: 20rem;
+    }
+
+    .aboutMeImageContainerMobile{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialMediaImage{
+        height: 13rem;
+        width: 20rem;
+    }
+
+    .admImage{
+        height: 13rem;
+        width: 20rem;
+    }
+
+    .experienceTitle{
+        font-size: 3rem;
+    }
+
+    .experienceTitleText{
+        font-size: 1.4rem;
+    }
+
+    .experienceImage{
+        height: 13rem;
+        width: 20rem;
+    }
+
+    .experienceContainerText{
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .homeSection{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .experienceSection{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .aboutMeSection{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .admSkillsList{
+        padding: 10px;
+    }
+}

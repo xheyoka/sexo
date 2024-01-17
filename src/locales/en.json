@@ -1,0 +1,77 @@
+{
+    "nav":{
+        "home": "Home",
+        "aboutMe": "About Me",
+        "services": "Services",
+        "experience": "Experience",
+        "lang":{
+            "title": "Language",
+            "english": "English",
+            "portuguese":  "Portuguese"
+        }
+    },
+    "home":{
+         "text1": "Hello",
+         "text2": "I'm",
+         "text3": "An Administrator",
+         "buttonText": "Talk to me",
+         "followMe": "Follow Me"
+    },
+    "aboutMe":{
+        "title": "About Me",
+        "content": "Marcus “heyoka” de Mello. I'm from São Paulo, capital and I've always been passionate about competition. I discovered the world of e-Sports in 2015 in the game Call of Duty, I played for 2 years where I participated in 2 in-person championships. The game had a partnership with the Xbox platform where the championships took place and they migrated to Playstation, so I started working as an administrator and social media manager for several teams, including my own."
+    },
+    "services": {
+        "title": "My Services",
+        "admMain": {
+            "title": "Administrator",
+            "content": "I will be responsible for addressing all team demands and doing my best to ensure that players and staff can carry out their work in the best possible way. I am seeking an opportunity to lead and manage an ambitious and visionary esports organization. I am confident in my ability to take the organization to the next level and achieve the desired success."
+        },
+        "admSkills": {
+            "title": "Skills",
+            "list": [
+                "Visionary and strategic leadership",
+                "Critical thinking and problem-solving",
+                "Excellent communication and presentation skills",
+                "Ability to build strong relationships",
+                "In-depth knowledge of the esports ecosystem"
+            ]
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "nexos": {
+            "title": "Nexos (CEO and Founder)",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a lobortis lorem.",
+            "list": ["1", "2", "3"]
+        },
+        "aquila": {
+            "title": "Aquila (ADM and Social Media)",
+            "content": "Monitoring the Call of Duty e-Sports lineup",
+            "list": [
+                "Recruitment and hiring of players and staff",
+                "Development of training and wellness programs for players",
+                "Management of conflicts and disputes among players and staff."
+            ]
+        },
+        "saka": {
+            "title": "SAKA (ADM e Social Media)",
+            "content": "Responsible for managing the team on the Twitter social network",
+            "list": [
+                "Monitoring the Call of Duty e-Sports lineup",
+                "Championship Management",
+                "Recruitment and hiring of players and staff, including hiring 2 designers"
+            ]
+        },
+        "bz": {
+            "title": "WeAreBrazilians (ADM)",
+            "content": "Monitoring the Call of Duty e-Sports lineup",
+            "list": [
+                "Championship Management",
+                "Development of training and wellness programs for players",
+                "Management of conflicts and disputes among players and staff",
+                "Recruitment and hiring of players and staff, including hiring 2 designers and a female lineup"
+            ]
+        }
+    }
+}

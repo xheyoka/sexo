@@ -1,0 +1,58 @@
+{
+    "nav":{
+        "home": "Início",
+        "aboutMe": "Sobre Mim",
+        "services": "Serviços",
+        "experience": "Experiência",
+        "lang":{
+            "title": "Linguagem", 
+            "english": "Inglês",
+            "portuguese":  "Português"
+        }
+    },
+    "home":{
+        "text1": "Olá",
+        "text2": "Sou",
+        "text3": "Administrador",
+        "buttonText": "Fale Comigo",
+        "followMe": "Siga Me"
+   },
+   "aboutMe":{
+    "title": "Sobre Mim",
+    "content": "Marcus “heyoka” de Mello. Sou de São Paulo capital e sempre fui apaixonado pela competição. Descobri o mundo do eports em 2015 no jogo Call of Duty, joguei durante 2 anos onde participei de 2 campeonatos presenciais. O jogo tinha uma parceria com a plataforma Xbox onde ocorriam os campeonatos e fizeram a migração para Playstation desde então passei a trabalhar como administrador e social media de diversas equipes como até uma própria minha."
+},
+    "services": {
+        "title":"Meus Serviços",
+        "admMain": {
+            "title": "Administrador(a)",
+            "content": "Serei responsável por atender todas as demandas do time e fazer o possível para que players e staff possam exercer seu trabalho da melhor maneira. Estou procurando uma oportunidade para liderar e gerenciar uma organização de esports ambiciosa e visionária. Estou confiante em minha capacidade de levar a organização para o próximo nível e alcançar o sucesso desejado."
+        },
+        "admSkills": {
+            "title": "Habilidades",
+            "list": ["Liderança visionária e estratégica", "Pensamento crítico e resolução de problemas", "Excelentes habilidades de comunicação e apresentação", "Capacidade de construir relacionamentos fortes", "Conhecimento profundo do ecossistema de eports"]
+        }
+    },
+    "experience":{
+        "title": "Experiência",
+        "nexos": {
+            "title": "Nexos (CEO e Founder)",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a lobortis lorem.",
+            "list": ["1","2","3"]
+        },
+        "aquila": {
+            "title": "Aquila (ADM e Social Media)",
+            "content": "Acompanhamento da lineup de eorts de Call of Duty",
+            "list": ["Recrutamento e contratação de jogadores e funcionários","Desenvolvimento de treinamento e programas de bemstar para jogadores.","Gestão de conflitos e disputas entre jogadores e funcionários."]
+        },
+        "saka": {
+            "title": "SAKA (ADM e Social Media)",
+            "content": " Responsável pelo gerenciamento do time na rede social Twitter",
+            "list":["Acompanhamento da lineup de eorts de Call of Duty", "Gerenciamento de Campeonatos", "Recrutamento e contratação de jogadores e funcionários entre eles: Contratação de 2 designers"]
+        },
+        "bz": {
+            "title": "WeAreBrazilians (ADM)",
+            "content": "Acompanhamento da lineup de eorts de Call of Duty",
+            "list":["Gerenciamento de Campeonatos","Desenvolvimento de treinamento e programas de bemstar para jogadores.","Gestão de conflitos e disputas entre jogadores e funcionários.","Recrutamento e contratação de jogadores e funcionários entre eles: Contratação de 2 designers, Contratação de lineup feminina"]
+        }
+    }
+}
