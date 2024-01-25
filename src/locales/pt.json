@@ -30,6 +30,22 @@
         "admSkills": {
             "title": "Habilidades",
             "list": ["Liderança visionária e estratégica", "Pensamento crítico e resolução de problemas", "Excelentes habilidades de comunicação e apresentação", "Capacidade de construir relacionamentos fortes", "Conhecimento profundo do ecossistema de eports"]
+        },
+        "more":{
+            "title": "Como Podemos Trabalhar",
+            "desc": "Além das funções principais como administrador também estou disponivel para:",
+            "marketing":{
+                 "title":"Marketing",
+                 "content":"Uma parte essencial para um time é representar da melhor maneira sua imagem para o público posso participar de anúncios, ajudar com patrocínios e gerar conteúdo para redes social como bastidores e entrevistas."
+            },
+            "events":{
+                "title":"Eventos",
+                "content": "Como resido em São Paulo posso acompanhar o time em campeonatos presenciais e eventos no geral onde irei auxiliar players e staff. "
+            },
+            "stream":{
+                "title":"Streams",
+                "content":"Gerar entretenimento e comunicação diariamente com diversos jogos e também na categoria “apenas conversando” para que o público se sinta mais próximo do time."
+            }  
         }
     },
     "experience":{

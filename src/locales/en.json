@@ -36,15 +36,26 @@
                 "Ability to build strong relationships",
                 "In-depth knowledge of the esports ecosystem"
             ]
+        },
+        "more": {
+            "title": "How We Can Work",
+            "desc": "In addition to the main administrative functions, I am also available for:",
+            "marketing": {
+                "title": "Marketing",
+                "content": "An essential part of any team is representing its image to the public in the best way possible. I can participate in advertisements, assist with sponsorships, and generate content for social media such as behind-the-scenes and interviews."
+            },
+            "events": {
+                "title": "Events",
+                "content": "As I reside in São Paulo, I can accompany the team in in-person championships and events in general, where I will assist players and staff."
+            },
+            "stream": {
+                "title": "Streams",
+                "content": "Generate daily entertainment and communication with various games, including the 'just chatting' category, to make the audience feel closer to the team."
+            }
         }
     },
     "experience": {
         "title": "Experience",
-        "nexos": {
-            "title": "Nexos (CEO and Founder)",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a lobortis lorem.",
-            "list": ["1", "2", "3"]
-        },
         "aquila": {
             "title": "Aquila (ADM and Social Media)",
             "content": "Monitoring the Call of Duty e-Sports lineup",

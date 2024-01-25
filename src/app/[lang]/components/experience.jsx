@@ -4,14 +4,6 @@ import ExperienceItem from './experienceItem'
 export default function Experience(prop) {
   const data = [
     {
-        title: prop.lang.experience.nexos.title,
-        content: prop.lang.experience.nexos.content,
-        list: prop.lang.experience.nexos.list,
-        image: '/images/nexosImage.png',
-        cover: false
-
-    },
-    {
         title: prop.lang.experience.aquila.title,
         content: prop.lang.experience.aquila.content,
         list: prop.lang.experience.aquila.list,

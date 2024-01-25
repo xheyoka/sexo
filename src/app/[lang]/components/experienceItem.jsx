@@ -20,8 +20,7 @@ export default function ExperienceItem(prop) {
             <div className='experienceContainerText flex flex-col w-full ml-32 '>
                 <span className='experienceTitleText text-[2.5rem] font-semibold'>{prop.title}</span>
                 <div className='relative hidden mobileExperienceImageContainer'>
-                  <div className='experienceImage h-[22rem] w-[29rem] rounded-lg border border-gray-400'></div>
-                  <div className='experienceImage flex h-[22rem] w-[29rem] absolute top-4  bg-black rounded-lg'>
+                  <div className='experienceImage flex h-[22rem] w-[29rem] top-4  bg-black rounded-lg'>
                       <Image className={prop.cover ?  'mb-2 h-full w-full rounded-lg border border-gray-400 object-cover' : 'mb-2 h-full w-full rounded-lg border border-gray-400 object-contain'} 
                               src={prop.image}
                               width={400}
