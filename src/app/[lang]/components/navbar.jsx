@@ -44,7 +44,7 @@ export default function Navbar(prop) {
 
   return (
     <div className='navbar fixed flex flex-row gap-12 w-full items-center bg-[#2B2730] border-b-[0.1px] border-gray-600 px-[140px] py-6 z-10'>
-        <span className='text-[1.4rem] font-bold'>Logo</span>
+        <span className='text-[1.4rem] font-bold'>heyoka</span>
         <nav className='navItems flex flex-1'>
             <ul className='flex flex-row gap-4 select-none'>
                 <li onClick={()=>scrollToSection('Home')}  className={'cursor-pointer border-b-[1px] border-transparent text-gray-300 hover:text-white hover:border-purple-500 duration-200'} >{prop.langData.nav.home}</li>

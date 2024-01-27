@@ -18,7 +18,7 @@ export default function AboutMe(prop) {
                       />         
               </div>
           </div>
-          <div className='aboutMeContainerText flex flex-col ml-32 w-full mt-8'>
+          <div className='aboutMeContainerText flex flex-col ml-32 w-full mt-16'>
               <span className='aboutMeTitleText text-[4rem] font-bold'>{prop.lang.aboutMe.title}</span>
               <div className='aboutMeImageContainerMobile relative mt-8 hidden'>
                 <div className='aboutMeImage aboutMeImageBorder h-[22rem] w-[29rem] rounded-lg border border-gray-400'></div>
@@ -34,7 +34,7 @@ export default function AboutMe(prop) {
                 </div>
               </div>
               <span className='aboutMeContentText font-bold text-neutral-400 mt-2'>{prop.lang.aboutMe.content}</span>
-              <button className='bg-white text-black font-bold rounded-md py-3 mt-8 hover:bg-purple-400 hover:text-white duration-100 '>Download CV</button>
+              
           </div>
       </div>
       
@@ -111,24 +111,7 @@ export default function AboutMe(prop) {
           </div>
         </div>
 
-        <div className='flex flex-col justify-center items-center mt-28 '>
-            <span className='text-[2.5rem] font-bold text-neutral-300'>{prop.lang.services.more.title}</span>
-            <span className='socialMediaContentText  text-neutral-400 mt-2 text-[1.2rem]'>{prop.lang.services.more.desc}</span>
-            <div className='moreContentSection flex flex-row justify-between gap-60 mt-4'>
-              <div className='flex flex-col text-center w-60'>
-                <span className='text-[1.3rem]'>{prop.lang.services.more.events.title}</span>
-                <span className='socialMediaContentText font-bold text-neutral-400 mt-4'>{prop.lang.services.more.events.content}</span>
-              </div>
-              <div className='flex flex-col text-center w-60'>
-                <span className='text-[1.3rem]'>{prop.lang.services.more.marketing.title}</span>
-                <span className='socialMediaContentText font-bold text-neutral-400 mt-4'>{prop.lang.services.more.marketing.content}</span>
-              </div>
-              <div className='flex flex-col text-center w-60'>
-                <span className='text-[1.3rem]'>{prop.lang.services.more.stream.title}</span>
-                <span className='socialMediaContentText font-bold text-neutral-400 mt-4'>{prop.lang.services.more.stream.content}</span>
-              </div>
-            </div>
-        </div>
+        
       </div>
     </div>
   )

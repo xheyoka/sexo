@@ -100,7 +100,7 @@
     }
 
     .aboutMeContainerText{
-        margin-top: 0rem;
+        margin-top: 2rem;
     }
 
     .aboutMeTitleText{
@@ -157,13 +157,9 @@
     }
 
     .aboutMeContainerText{
-        margin-top: 0rem;
+        margin-top: 2rem;
     }
 
-
-    .aboutMeContainerText{
-        margin-top: -2rem;
-    }
     /* experience */
 
     .experienceSection{
@@ -406,8 +402,11 @@
     }
 
     .aboutMeImageBorder{
-        height: 13rem;
-        width: 20rem;
+       display: none;
+    }
+
+    .aboutMeImageMobile{
+        position: initial;
     }
 
     .aboutMeImageContainerMobile{
