@@ -374,7 +374,9 @@
 
 @media screen and (max-width: 545px){
     
-
+    .moreButton {
+        width: 60dvw;
+    }
     .navbar {
         padding-left: 40px;
         padding-right: 40px;
