@@ -7,10 +7,9 @@ export default function Home(prop) {
         <div className='absolute w-full h-full opacity-40 z-[1]'>
             <Image
             className=''
-            src='/images/homeBGImage.jpeg'
+            src='/images/homeImage.png'
             layout='fill'
-            objectFit='cover'
-            objectPosition='top'                  
+            objectFit='cover'                  
             alt='side image'                    
             priority={true}                    
             quality={100} 
@@ -52,19 +51,6 @@ export default function Home(prop) {
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div className='relative mt-10 z-[2] mr-[140px] homeImageContainer'>
-            <div className='homeImageBorder h-[25rem] w-[32rem] rounded-lg border border-gray-400'></div>
-            <div className='homeImage h-[25rem] w-[32rem] absolute top-4 left-[-35px]'>
-                <Image className='mb-2 h-full w-full rounded-lg border border-gray-400' 
-                        src='/images/homeImage.png'
-                        layout='fill'
-                        objectFit='cover'
-                        alt='side image'
-                        priority={true}
-                        quality={100}           
-                    />         
             </div>
         </div>
     </div>

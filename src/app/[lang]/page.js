@@ -18,7 +18,6 @@ export default async function Page({params: {lang}}) {
         <Experience lang={data} />
         <MoreSection lang={data} />
         <Footer lang={data} />
-        
       </div>
     </main>
   )
