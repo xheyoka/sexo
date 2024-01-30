@@ -7,7 +7,7 @@ export default function Home(prop) {
         <div className='absolute w-full h-full opacity-40 z-[1]'>
             <Image
             className=''
-            src='/images/homeImage.jpeg'
+            src='/images/homeBGImage.jpeg'
             layout='fill'
             objectFit='cover'
             objectPosition='top'                  
@@ -16,7 +16,7 @@ export default function Home(prop) {
             quality={100} 
              />
         </div>
-        <div className='homeSection homeContainerText flex flex-col flex-1 gap-8 z-[01] px-[140px] w-full'>
+        <div className='homeSection homeContainerText flex flex-col flex-1 gap-8 z-[2] px-[140px] w-full'>
             <div className=' flex flex-col'>
                 <span className='homeHelloText font-bold text-[8rem] ml-[-8px] select-none'>{prop.lang.home.text1}</span>
                 <span className='homeNameText font-bold text-[1.5rem] mt-[-20px]'>{prop.lang.home.text2} Marcus <span className='text-[#9575DE]'>"Heyoka"</span> de Mello</span>
@@ -54,7 +54,19 @@ export default function Home(prop) {
                 </div>
             </div>
         </div>
-        
+        <div className='relative mt-10 z-[2] mr-[140px] homeImageContainer'>
+            <div className='homeImageBorder h-[25rem] w-[32rem] rounded-lg border border-gray-400'></div>
+            <div className='homeImage h-[25rem] w-[32rem] absolute top-4 left-[-35px]'>
+                <Image className='mb-2 h-full w-full rounded-lg border border-gray-400' 
+                        src='/images/homeImage.png'
+                        layout='fill'
+                        objectFit='cover'
+                        alt='side image'
+                        priority={true}
+                        quality={100}           
+                    />         
+            </div>
+        </div>
     </div>
   )
 }

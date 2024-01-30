@@ -9,7 +9,7 @@ export default function AboutMe(prop) {
               <div className='aboutMeImage h-[22rem] w-[29rem] rounded-lg border border-gray-400'></div>
               <div className='aboutMeImage h-[22rem] w-[29rem] absolute top-4 right-[-35px]'>
                   <Image className='mb-2 h-full w-full rounded-lg border border-gray-400 object-cover' 
-                          src='/images/aboutMeImage.png'
+                          src='/images/aboutMeImage.jpg'
                           width={400}
                           height={400}
                           alt='side image'
@@ -24,7 +24,7 @@ export default function AboutMe(prop) {
                 <div className='aboutMeImage aboutMeImageBorder h-[22rem] w-[29rem] rounded-lg border border-gray-400'></div>
                 <div className='aboutMeImage aboutMeImageMobile h-[22rem] w-[29rem] absolute top-4'>
                     <Image className='mb-2 h-full w-full rounded-lg border border-gray-400 object-cover' 
-                            src='/images/aboutMeImage.png'
+                            src='/images/aboutMeImage.jpg'
                             width={400}
                             height={400}
                             alt='side image'

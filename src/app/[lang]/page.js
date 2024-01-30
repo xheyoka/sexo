@@ -4,6 +4,7 @@ import AboutMe from './components/aboutMe'
 import Experience from './components/experience'
 import Footer from './components/footer'
 import { getDictionary } from '../../lib/dictionary'
+import MoreSection from './components/more'
 
 export default async function Page({params: {lang}}) {
   const data = await getDictionary(lang)
@@ -15,7 +16,9 @@ export default async function Page({params: {lang}}) {
         <Home lang={data} />
         <AboutMe lang={data} />
         <Experience lang={data} />
+        <MoreSection lang={data} />
         <Footer lang={data} />
+        
       </div>
     </main>
   )

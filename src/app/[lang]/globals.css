@@ -133,6 +133,8 @@
 
 @media screen and (max-width: 1200px) {
 
+
+
     .moreContentSection{
         gap: 8rem;
     }
@@ -144,6 +146,9 @@
     }
 
     /* home */
+    .homeImageContainer{
+        margin-right: 80px;
+    }
     .homeSection{
         padding-left: 80px;
         padding-right: 80px;
@@ -220,6 +225,10 @@
 }
 
 @media screen and (max-width: 960px){
+    .homeImageContainer{
+        display: none !important;
+    }
+
     .moreContentSection{
         flex-direction: column;
         gap: 2rem;
